@@ -29,7 +29,7 @@ VALUES
 
   
   /* Solution */
-  SELECT name FROM customers WHERE state="RS";
+  SELECT name FROM customers WHERE state='RS';
   
   /*  Execute this query to drop the tables */
   -- DROP TABLE customers; --
