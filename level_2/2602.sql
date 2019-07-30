@@ -2,7 +2,7 @@
   Name: Problem 2602
 	Copyright: 2019 Augusto Machado Ramos
 	Author: Augusto Machado Ramos
-	Date: 07/25/2019  6:19 pm
+	Date: 07/25/2019
 	Comment language: en
 	Description: 
     Your company is doing a survey of how many customers are registered in the states, however,
