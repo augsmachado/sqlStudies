@@ -11,3 +11,23 @@
 			creatures were found in the surroundings of the laboratories, but this is clearly a lie.
 		Therefore, you must replace every string “H1”( Hemagglutinin ) by 'X' ( Xenomorphina ).
 */
+
+CREATE TABLE virus (
+  id INTEGER,
+  name VARCHAR(255)
+);
+
+
+INSERT INTO virus(id, name)
+VALUES 
+      (1, 'H1RT'),
+      (2, 'H7H1'),
+      (3, 'HUN8'),
+      (4, 'XH1HX'),
+      (5, 'XXXX');
+
+  /* Solution */
+  
+  
+  /*  Execute this query to drop the tables */
+  -- DROP TABLE virus; --
