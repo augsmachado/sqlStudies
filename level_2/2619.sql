@@ -59,8 +59,11 @@ VALUES
   (5,	'TV',	30,	3000.25,	2,	2);
   
 /* Solution */
-
+SELECT products.name, providers.name, products.price
+FROM products, providers
+WHERE products.price > 1000
+AND products.id_providers = providers.id
+AND products.id_categories = (SELECT id from categories WHERE name = 'Super Luxury');
 
 /*  Execute this query to drop the tables */
 -- DROP TABLE products, categories, providers; --
-
