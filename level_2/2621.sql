@@ -46,9 +46,10 @@ VALUES
   (5,	'Solar Panel',	30,	3000.25,	4);
   
   /* Solution */
-  SELECT products.name from products, providers
-  WHERE providers.name LIKE 'P%'
-  AND products.amount > 10 AND products.amount < 20;
-  
+ SELECT products.name
+ FROM products INNER JOIN providers ON products.id_providers = providers.id
+ WHERE providers.name LIKE 'P%'
+ AND products.amount BETWEEN 10 AND 20;
+ 
   /*  Execute this query to drop the tables */
   -- DROP TABLE products, providers; -- 
