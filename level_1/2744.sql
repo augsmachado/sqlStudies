@@ -27,7 +27,7 @@ VALUES (1, 'Joyce P. Parry', 'Promeraw', 'noh1Oozei'),
        (5, 'Roger N. Brownfield', 'Worseente', 'fah7ohNg');
 
   /* Solution */
-  SELECT id, password, md5(password) as "MD5" from account;
+  SELECT id, password, md5(password) as "MD5" FROM account;
   
   /*  Execute this query to drop the tables */
   -- DROP TABLE account; --
